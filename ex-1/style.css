@@ -3,31 +3,35 @@
   padding: 0;
   margin: 0;
 }
+:root{
+  --branding-color:#ff7f50;
+  --secondary-color:cornsilk;
+  --highlight-color:#d2691e;
+  --muted-color:#a9a9a9;
+  --margin-level1:1px;
+  --margin-level2:5px;
+  --margin-level3:10px;
+  --margin-level4:15px;
+  --margin-level5:20px;
+  --padding-level1:1px;
+  --padding-level2:5px;
+  --padding-level3:10px;
+  --padding-level4:15px;
+  --padding-level5:20px;
+  --font-size-small:12px;
+  --font-size-medium:16px;
+  --font-size-large:20px;
+  --font-size-extra-large:30px;
+  --font-size-double-extra-large:50px;
+  --font-size-triple-extra-large:100px;
+}
+.introduction{
+  color:var(--secondary-color);
+  padding:var(--padding-level5);
 
-:root {
-  --Branding-Color: #ff7f50;
-  --Secondary-Color: cornsilk;
-  --Highlight-Color: #d2691e;
-  --Muted-Color: #a9a9a9;
-  --Level-1: 1px;
-  --Level-2: 5px;
-  --Level-3: 10px;
-  --Level-4: 15px;
-  --Level-5: 20px;
-  --Small: 12px;
-  --Medium: 16px;
-  --Large: 20px;
-  --Extra-Large: 30px;
-  --Double-Extra-Large: 50px;
-  --Triple-Extra-Large: 100px
+}
+.introduction h1{
+  color:var(--branding-color);
+  font-size: var(--font-size-triple-extra-large);
 }
 
-.introduction {
-  background-color: var(--Secondary-Color);
-  padding: var(--Level-5);
-}
-
-h1 {
-  color: var(--Branding-Color);
-  font-size: var(--Triple-Extra-Large);
-}
